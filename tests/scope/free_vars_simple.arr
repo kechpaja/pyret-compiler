@@ -1,12 +1,9 @@
 #lang pyret
 
-x = 8
+x = 9
 
 fun f() -> Number:
-  fun g() -> Number:
-    x
-  end
-  g()
+  x
 end
 
 print(f())
